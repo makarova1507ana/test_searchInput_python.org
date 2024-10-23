@@ -42,10 +42,12 @@
 ## Запуск
 Для простого теста
    ```bash
-pytest simple_test/test_simple.py  ```
+pytest simple_test/test_simple.py 
+```
 Для продвинутого теста с логированием и отчетами
    ```bash
-pytest test_pro/test.py  ```
+pytest test_pro/test.py
+```
  Для продвинутого теста команда для запустка тестов и генерации HTML-отчет
    ```bash
 pytest test_pro/test.py --html=report.html --self-contained-html 
