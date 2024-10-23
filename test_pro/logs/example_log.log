@@ -1,4 +1,4 @@
-2024-10-23 21:28:49 - INFO - Тестирование начато
+2024-10-23 21:28:49 - INFO - Г’ГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ Г­Г Г·Г ГІГ®
 2024-10-23 21:28:51 - INFO - Start test: regular keyword 'Python'
 2024-10-23 21:28:51 - INFO - Test regular keyword 'Python' if finished successfully
 2024-10-23 21:28:59 - INFO - Start test: part of the word 'Py'
@@ -8,7 +8,7 @@
 2024-10-23 21:29:17 - INFO - Start test: keyword with spaces at the beginning and end
 2024-10-23 21:29:17 - INFO - Test keyword with spaces at the beginning and end if finished successfully
 2024-10-23 21:29:25 - INFO - Start test: common typo 'Pythno'
-2024-10-23 21:29:26 - ERROR - Error in the test common typo 'Pythno': Результаты не содержат ключевое слово 'Python'
+2024-10-23 21:29:26 - ERROR - Error in the test common typo 'Pythno': ГђГҐГ§ГіГ«ГјГІГ ГІГ» Г­ГҐ Г±Г®Г¤ГҐГ°Г¦Г ГІ ГЄГ«ГѕГ·ГҐГўГ®ГҐ Г±Г«Г®ГўГ® 'Python'
 assert False
  +  where False = any(<generator object test_search.<locals>.<genexpr> at 0x000001FC2E3A09E0>)
 Traceback (most recent call last):
@@ -17,7 +17,7 @@ Traceback (most recent call last):
              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "C:\Users\Anastasia\Desktop\python\testing_search_input_python.org\test.py", line 56, in test_search
     assert any(test_data["expected"] in result.text for result in results), \
-AssertionError: Результаты не содержат ключевое слово 'Python'
+AssertionError: ГђГҐГ§ГіГ«ГјГІГ ГІГ» Г­ГҐ Г±Г®Г¤ГҐГ°Г¦Г ГІ ГЄГ«ГѕГ·ГҐГўГ®ГҐ Г±Г«Г®ГўГ® 'Python'
 assert False
  +  where False = any(<generator object test_search.<locals>.<genexpr> at 0x000001FC2E3A09E0>)
 2024-10-23 21:29:30 - INFO - Start test: keyword with special characters 'Python 3.8'
@@ -34,4 +34,4 @@ assert False
 2024-10-23 21:30:20 - INFO - Test empty input if finished successfully
 2024-10-23 21:30:29 - INFO - Start test: spaces only
 2024-10-23 21:30:30 - INFO - Test spaces only if finished successfully
-2024-10-23 21:30:32 - INFO - Тестирование завершено
+2024-10-23 21:30:32 - INFO - Г’ГҐГ±ГІГЁГ°Г®ГўГ Г­ГЁГҐ Г§Г ГўГҐГ°ГёГҐГ­Г®
