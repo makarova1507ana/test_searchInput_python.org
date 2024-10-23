@@ -40,6 +40,14 @@
    pip install -r requirements.txt
 
 ## Запуск
-pytest simple_test/test_simple.py    # Для простого теста
-pytest test_pro/test.py              # Для продвинутого теста с логированием и отчетами
-pytest test_pro/test.py --html=report.html --self-contained-html # Для продвинутого теста команда для запустка тестов и генерации HTML-отчет
+Для простого теста
+   ```bash
+pytest simple_test/test_simple.py
+
+Для продвинутого теста с логированием и отчетами
+   ```bash
+pytest test_pro/test.py
+
+ Для продвинутого теста команда для запустка тестов и генерации HTML-отчет
+   ```bash
+pytest test_pro/test.py --html=report.html --self-contained-html 
