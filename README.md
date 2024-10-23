@@ -45,6 +45,8 @@ git clone https://github.com/makarova1507ana/test_searchInput_python.org.git
    ```bash
    pip install -r requirements.txt
 ```
+
+
 ## Запуск
 Для простого теста
    ```bash
