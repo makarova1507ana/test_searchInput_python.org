@@ -1,0 +1,77 @@
+{
+    "tests": [
+        {
+            "input": "Python",
+            "expected": "Python",
+            "contains": true,
+            "name": "regular keyword 'Python'"
+        },
+        {
+            "input": "Py",
+            "expected": "Python",
+            "contains": true,
+            "name": "part of the word 'Py'"
+        },
+        {
+            "input": "PYTHON",
+            "expected": "Python",
+            "contains": true,
+            "name": "keyword 'PYTHON' (case sensitivity)"
+        },
+        {
+            "input": "    Python     ",
+            "expected": "Python",
+            "contains": true,
+            "name": "keyword with spaces at the beginning and end"
+        },
+        {
+            "input": "Pythno",
+            "expected": "No results found.",
+            "contains": false,
+            "name": "common typo 'Pythno'"
+        },
+        {
+            "input": "Python 3.8",
+            "expected": "Python 3.8",
+            "contains": true,
+            "name": "keyword with special characters 'Python 3.8'"
+        },
+        {
+            "input": "Python     3.8",
+            "expected": "Python 3.8",
+            "contains": true,
+            "name": "spaces between words 'Python     3.8'"
+        },
+        {
+            "input": "!@#$%^&*()",
+            "expected": "No results found.",
+            "contains": false,
+            "name": "invalid characters"
+        },
+        {
+            "input": "PythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPythonPython",
+            "expected": "No results found.",
+            "contains": false,
+            "name": "very long keyword"
+        },
+
+        {
+            "input": "xyzabc",
+            "expected": "No results found.",
+            "contains": false,
+            "name": "non-existent word 'xyzabc'"
+        },
+        {
+            "input": "",
+            "expected": "No results found.",
+            "contains": false,
+            "name": "empty input"
+        },
+        {
+            "input": "   ",
+            "expected": "No results found.",
+            "contains": false,
+            "name": "spaces only"
+        }
+    ]
+}
