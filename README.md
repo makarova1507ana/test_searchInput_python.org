@@ -49,14 +49,14 @@ git clone https://github.com/makarova1507ana/test_searchInput_python.org.git
 
 ## Запуск
 Для простого теста
-   ```bash
+```bash
 pytest simple_test/test.py 
 ```
 Для продвинутого теста с логированием и отчетами
-   ```bash
+```bash
 pytest test_pro/test.py
 ```
  Для продвинутого теста команда для запустка тестов и генерации HTML-отчет
-   ```bash
+```bash
 pytest test_pro/test.py --html=report.html --self-contained-html 
   ```
