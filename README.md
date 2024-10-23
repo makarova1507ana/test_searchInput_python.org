@@ -31,6 +31,8 @@
 - Python 3.x
 - Selenium
 - pytest
+- pytest-html 
+- logging 
 
 ## Установка
 
