@@ -42,7 +42,7 @@ git clone https://github.com/makarova1507ana/test_searchInput_python.org.git
 ```
 2. Проверьте, что вы находитесь в папке с проектом.
 3. Установите необходимые пакеты с помощью pip:
-   ```bash
+```bash
    pip install -r requirements.txt
 ```
 
